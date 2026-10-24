@@ -1,34 +1,257 @@
 
 <!DOCTYPE html>
-<html>
-<head><title>Explore Kenya</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Kenya - Discover Kenya</title>
+
+    <style>
+        body {
+            background-color: #f0f8ff;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 900px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: Algerian, Georgia, serif;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            color: darkgreen;
+            text-align: center;
+            font-size: 36px;
+            border-bottom: 3px solid darkgreen;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: darkblue;
+            font-size: 26px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #8B4513;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            text-transform: lowercase;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #ddd;
+        }
+
+        a {
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: darkgreen;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            margin: 0;
+        }
+
+        @media (max-width: 500px) {
+            body {
+                padding: 12px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .card {
+                padding: 14px;
+            }
+        }
+    </style>
+</head>
+
 <body>
-<h1>Explore Kenya</h1>
-<p>Welcome to Explore Kenya! Discover Kenya's incredible wildlife, snow-capped mountains, vast savannahs, and rich culture.</p>
 
-<h2>Popular Tourist Attractions</h2>
+    <h1>Explore Kenya</h1>
 
-<h3>1. Mount Kenya</h3>
-<img src="mount-kenya.jpg" alt="Mount Kenya" width="400">
-<p>Mount Kenya is highest in Kenya, second in Africa. Famous for snow peaks Batian, Nelion, Lenana. UNESCO site. Activities: hiking, climbing, camping, cultural tours.</p>
-<p><a href="https://en.wikipedia.org/wiki/Mount_Kenya" target="_blank">Learn more</a></p>
+    <div class="card">
+        <p>
+            welcome to explore kenya! discover the beauty of kenya,
+            a wonderful tourist destination known for its wildlife,
+            mountains, beautiful landscapes, national parks, and
+            rich cultural heritage.
+        </p>
+    </div>
 
-<h3>2. Amboseli National Park</h3>
-<img src="amboseli.jpg" alt="Amboseli elephants" width="400">
-<p>Amboseli in southern Kenya near Tanzania. Best for large elephant herds with 1500 elephants. Iconic view of Kilimanjaro. See lions, cheetahs, giraffes, 400+ birds.</p>
-<p><a href="https://en.wikipedia.org/wiki/Amboseli_National_Park" target="_blank">Learn more</a></p>
+    <h2>Popular Tourist Attractions</h2>
 
-<h3>3. Maasai Mara</h3>
-<img src="mara.jpg" alt="Maasai Mara" width="400">
-<p>Most famous park in southwest Kenya. Known for Great Migration of 1.5M wildebeest July-Oct. Has Big Five. Enjoy game drives, balloon safaris, Maasai culture.</p>
-<p><a href="https://en.wikipedia.org/wiki/Masai_Mara" target="_blank">Learn more</a></p>
+    <!-- MOUNT KENYA -->
+    <div class="card">
+        <h3>1. Mount Kenya</h3>
 
-<h3>4. Tsavo National Park</h3>
-<img src="tsavo.jpg" alt="Tsavo elephants" width="400">
-<p>One of largest parks in world, East and West. Famous for red elephants and maneless lions. Features Mzima Springs, Shetani Lava Flows. 500+ bird species.</p>
-<p><a href="https://en.wikipedia.org/wiki/Tsavo_National_Park" target="_blank">Learn more</a></p>
+        <div class="gallery">
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Kenya.jpg"
+                alt="mount kenya mountain scenery"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80';">
 
-<h2>Contact Us</h2>
-<p>Email: <a href="mailto:info@explorekenya.com">info@explorekenya.com</a></p>
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Kenya%20Peaks.jpg"
+                alt="mountain peaks and rocky landscape"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=800&q=80';">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20on%20Mount%20Kenya.jpg"
+                alt="mountain lake on mount kenya"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80';">
+        </div>
+
+        <p>
+            mount kenya is the second-highest mountain in africa.
+            it is famous for its snow-capped peaks, beautiful forests,
+            unique wildlife, and breathtaking scenery. visitors can
+            enjoy hiking, mountain climbing, camping, and nature walks.
+        </p>
+
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Mount_Kenya"
+               target="_blank" rel="noopener noreferrer">
+                learn more about mount kenya →
+            </a>
+        </p>
+    </div>
+
+    <!-- HELL'S GATE -->
+    <div class="card">
+        <h3>2. Hell's Gate National Park</h3>
+
+        <div class="gallery">
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Hell%27s%20Gate%20Gorge%20%282293412387%29.jpg"
+                alt="gorge at hell's gate national park"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80';">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Fischer%20Tower%20in%20Hell%27s%20Gate.jpg"
+                alt="fischer tower rock formation"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80';">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Hell%27s%20Gate%20Naivasha%20Kenya.jpg"
+                alt="landscape at hell's gate near naivasha"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80';">
+        </div>
+
+        <p>
+            hell's gate national park is located near lake naivasha
+            in kenya. it is known for its dramatic cliffs, deep
+            gorges, hot springs, and beautiful rock formations.
+            tourists can enjoy cycling, hiking, rock climbing,
+            and observing wildlife.
+        </p>
+
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Hell%27s_Gate_National_Park"
+               target="_blank" rel="noopener noreferrer">
+                learn more about hell's gate →
+            </a>
+        </p>
+    </div>
+
+    <!-- TSAVO NATIONAL PARK -->
+    <div class="card">
+        <h3>3. Tsavo National Park</h3>
+
+        <div class="gallery">
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Tsavo%20East%20National%20park.jpg"
+                alt="scenery in tsavo east national park"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80';">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Buffalos%20in%20front%20of%20Mt%20Kenya.jpg"
+                alt="buffalo in a natural african landscape"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=800&q=80';">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Tsavo.jpg"
+                alt="elephants in the african wilderness"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=800&q=80';">
+        </div>
+
+        <p>
+            tsavo national park is one of kenya's famous wildlife
+            destinations. it is known for its elephants, lions,
+            diverse wildlife, and wide-open landscapes. visitors
+            can enjoy game drives, bird watching, photography,
+            and exciting wildlife experiences.
+        </p>
+
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Tsavo_National_Park"
+               target="_blank" rel="noopener noreferrer">
+                learn more about tsavo →
+            </a>
+        </p>
+    </div>
+
+    <!-- CONTACT US -->
+    <div class="card">
+        <h2>Contact Us</h2>
+
+        <p>
+            would you like to explore kenya? contact us for more
+            information about our tourist destinations.
+        </p>
+
+        <p>
+            phone: 0780280284 / 0759093133
+        </p>
+
+        <p>
+            email:
+            <a href="mailto:info@explorekenya.com">
+                info@explorekenya.com
+            </a>
+        </p>
+
+        <p>location: embu / kutus, kenya</p>
+    </div>
+
 </body>
 </html>
